@@ -185,6 +185,7 @@ DEPENDENCIES
   carrierwave (~> 2.2, >= 2.2.3)
   debug
   jbuilder (~> 2.11, >= 2.11.5)
+  mini_magick (~> 4.12)
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors (~> 2.0, >= 2.0.1)
