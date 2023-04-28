@@ -1,5 +1,5 @@
 class Meetup < ApplicationRecord
-    validates_presence_of :title, :description, :time
+    validates_presence_of :title, :description, :time, :location
 
     has_one_attached :image
 
