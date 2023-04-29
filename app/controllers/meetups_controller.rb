@@ -1,5 +1,6 @@
 class MeetupsController < ApplicationController
   before_action :set_meetup, only: %i[ show update destroy ]
+  access all: [:index, :show], user: {except: [:destroy, :new, :create, :update, :edit]}, site_admin: :all
 
   # GET /meetups
   def index
